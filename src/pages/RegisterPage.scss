@@ -1,0 +1,261 @@
+
+
+$breakpoint-desktop: 2000px;
+@media (max-width: $breakpoint-desktop){
+	
+.register {
+	position: relative;
+	margin: auto;
+	background-color: #F4F4F4;
+	width: 1440px;
+	height: 900px;
+	display: flex;
+	padding-top: 100px;
+	padding-left: 100px;
+	&__images{
+		width: 818px;
+		height: 693px;
+		left: 100px;
+		top: 103px;
+		background: rgba(62, 76, 111, 0.75) !important;
+		border-radius: 15px;
+		&--image-catdog{
+			border-radius: 15px;
+			opacity: 0.2;
+		}
+		&--image-tinpet{
+			margin-left: 240px !important;
+			position: relative;
+			margin-top: -800px;			
+		}
+		&--description{
+			position: relative;
+			text-align: center;
+			font-weight: bold;
+			font-size: 20px;
+			color: #fff;
+			margin-top: -350px;
+		}
+	}
+	&__form{
+		margin-left: 30px;
+		&--form-wrapper{
+			h1 {
+			font-weight: bold;
+			font-size: 40px;
+			text-align: center;
+			}
+			width: 403px;
+			height: 575px;
+			left: 937px;
+			top: 103px;
+			border: 1px solid #C4C4C4;
+			border-radius: 15px;
+			padding: 10px !important;
+			margin: 5px;
+		}
+		&--form-input{
+			height: 50px;
+			border-radius: 12px !important;
+		}
+		&--form-button{
+			h5{
+			font-size: 14px;
+			opacity: 0.8;
+			}
+		}
+	}
+}
+
+.store{
+	margin-top: 30px !important;
+	position: relative;
+	display: flex;
+	width: 80%;
+	margin: auto;
+	}
+	.android-register{
+		position: relative;
+		width: 165px !important;
+		left: -10px;
+	}
+	.ios-register{
+		position: relative;
+		width: 147px !important;
+		top: 10px !important;
+	}
+}
+
+$breakpoint-tablet: 1024px;
+@media (max-width: $breakpoint-tablet){
+	.register {
+		position: relative;
+		margin: auto;
+		background-color: #F4F4F4;
+		width: 1040px;
+		height: auto;
+		display: flex;
+		padding-top: 50px;
+		padding-left: 50px;
+		&__images{
+			width: 518px;
+			height: 393px;
+			&--image-catdog{
+				width: 518px;
+				height: 393px;
+			}
+			&--image-tinpet{
+				margin-left: 140px !important;
+				width: 220px;
+				position: relative;
+				margin-top: -450px;		
+			}
+			h5{
+				font-size: 12px;
+				margin-top: -200px;
+			}
+		}
+		&__form{
+			margin-left: 20px;
+			margin-top: -10px;
+			&--form-wrapper{
+				h1 {
+					font-weight: bold;
+					font-size: 23px;
+					text-align: center;
+				}
+				width: 310px;
+				height: auto;
+				left: 937px;
+				top: 103px;
+				border: 1px solid #C4C4C4;
+				border-radius: 15px;
+				padding: 10px !important;
+				margin-top: 10px !important;
+			}
+			&--form-input{
+				height: 30px;
+				border-radius: 5px !important;
+				line-height: -20px !important;
+				font-size: 10px;
+			}
+			&--form-button{
+				h5{
+					font-size: 11px;
+					margin-top: -30px;
+				}
+			}
+			&--submit-button{
+				height: 30px !important;
+				font-size: 12px !important;
+				margin-top: -50px !important;
+			}
+		}
+	}
+	.store{
+	margin-top: 50px !important;
+	position: relative;
+	display: flex;
+	width: 80%;
+	margin: auto;
+	}
+	.android-register{
+		position: relative;
+		width: 165px !important;
+		left: -27px !important;
+		top: -102px !important;
+	}
+	.ios-register{
+		position: relative;
+		width: 147px !important;
+		top: -94px !important;
+		left: 18px !important
+	}
+}
+
+
+$breakpoint-mobile: 500px;
+@media (max-width: $breakpoint-mobile){
+	.register{
+		margin: auto;
+		background-color: #F4F4F4;
+		display: block;
+		width: 320px;
+		height: auto;
+		padding-top: 20px;
+		padding-left: 20px;
+		&__images{
+			width: 280px;
+			height: 268px;
+			&--image-catdog{
+				border-radius: 15px;
+				opacity: 0.2;
+				position: relative;
+				width: 280px;
+				height: 400px;
+				margin-top: -74px;
+			}
+			&--image-tinpet{
+				margin-left: 60px !important;
+				width: 150px;
+				position: relative;
+				margin-top: -450px;		
+			}
+			h5{
+				font-size: 10px;
+				margin-top: -210px;
+			}
+		}
+		&__form{
+			margin: auto;
+			&--form-wrapper{
+				h1 {
+					font-weight: bold;
+					font-size: 20px;
+					text-align: center;
+				}
+				width: 280px;
+				height: auto;
+				border: 1px solid #C4C4C4;
+				border-radius: 15px;
+				padding: 10px !important;
+				margin-top: 20px !important;
+			}
+			&--form-input{
+				height: 30px;
+				border-radius: 5px !important;
+				line-height: -2px !important;
+				font-size: 10px;
+			}
+			&--form-button{
+				h5{
+					font-size: 10px;
+					margin-top: -30px;
+				}
+			}
+			&--submit-button{
+				height: 27px !important;
+				font-size: 10px !important;
+			}
+		}
+	}
+.store{
+	margin-top: 50px !important;
+	position: relative;
+	display: flex;
+	width: 80%;
+	margin: auto;
+	}
+	.android-register{
+		position: relative;
+		width: 165px !important;
+		left: -27px !important;
+		top: -107px !important;
+	}
+	.ios-register{
+		position: relative;
+		width: 147px !important;
+		top: -100px !important;
+		left: 1px !important;
+	}
+}

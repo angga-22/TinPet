@@ -1,0 +1,76 @@
+@media screen and (max-width: 991px){
+    .box-right-profile{
+        border-radius: 0px;
+    }
+    .feed-component {
+        height: auto;
+    }
+    .feed-post{
+        height: auto;
+    }
+    .pets-data{
+        margin-top: 1vh;
+    }
+    .btn-right-profile{
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (min-width:992px){
+    .box-right-profile{
+        border-radius: 15px;
+    }
+
+    .feed-post {
+        height: auto;
+    }
+    .feed-component{
+        height: auto;
+        
+    }
+    .btn-right-profile{
+        font-size: 1.5em;
+    }
+
+}
+
+
+
+/* box-right-profile */
+.box-right-profile{
+    background-color: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+}
+
+
+.row-profile{
+    margin: 50px 32px 0 32px;
+    
+}
+
+
+/* card-feed */
+
+.box-right-profile-post{
+    height: 100%;
+    padding: 24px;
+}
+
+.likes-comment{
+    color: #7B7B7B ;
+    font-size: 1em;
+    line-height: 17px;
+    font-weight: 600;
+    display: inline;
+    margin-right: 20px;
+}
+
+
+
+.btn-right-profile{
+    margin: .2em;
+    color: #C4C4C4;
+    font-weight: bold;
+    line-height: 29px;
+}

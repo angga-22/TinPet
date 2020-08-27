@@ -1,0 +1,19 @@
+.post-message{
+	h1{
+		text-align: center;
+		font-weight: bold;
+		position: relative;
+		font-size: 40px;
+		color: #FF65C5;
+	}
+}
+
+.form-message{
+	width: 100% !important;
+}
+
+.button-message{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}

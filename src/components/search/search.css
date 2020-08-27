@@ -1,0 +1,91 @@
+/* phone only */
+@media screen and (max-width: 575px){
+    .input-search{
+        font-size: 1em;
+    }
+    .box-search{
+        border-radius: 0px;
+    }
+    .btn-search{
+        font-size: 1em;
+        height: 3rem;
+    }
+    .search-component{
+        height: 50%;
+    }
+}
+@media screen and (min-width: 576px){
+    .box-search{
+        border-radius: 0px;
+    }
+    .btn-search{
+        font-size: 1em;
+        height: 3rem;
+    }
+    .search-component{
+        height: 50%;
+    }
+}
+/* tablet potrait up */
+@media screen and (min-width: 768px){
+}
+/* tablet lanscape up */
+@media screen and (min-width: 992px){
+    .box-search{
+        border-radius: 15px;
+        height: 350px;
+    }
+    .btn-search{
+        font-size: 1.5vw;
+        height: 4vw;
+    }
+}
+/* desktop up */
+@media screen and (min-width: 1200px){
+    .btn-search{
+        font-size: 1.4vw;
+        height: 3.5vw;
+    }
+}
+/* big desktop up */
+@media screen and (min-width: 1600px){
+    .btn-search{
+        font-size: 1.2vw;
+        height: 3vw;
+    }
+}
+
+/* input */
+
+.input-search{
+    border-radius: 5px;
+    height: 3rem;
+    text-align: center;
+    background-color: #f4f4f4;
+    
+    /* font-size: 1vw; */
+}
+
+/* box */
+.box-search{
+    background-color: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+}
+
+
+
+
+/* btn search location */
+.btn-search{
+    border-radius: 5px;
+    /* background-color: #f4f4f4; */
+    margin: 0px 16px;
+    width: 92%;
+}
+
+.btn-search-color{
+    background-color: #3E4C6F !important;
+    color: #f4f4f4;
+    font-weight: 600;
+}

@@ -1,0 +1,62 @@
+.reqmeeting{
+	position: relative;
+	margin: auto;
+	width: 550px;
+	height: 661px;
+	border-radius: 15px;
+	background-color: white;
+	&__header{
+		position: relative;
+		display: flex !important;
+		h1{		
+			width: 850px !important;
+			font-weight: bold;
+			padding: 20px;
+			color: #FF65C5;
+			font-size: 40px;
+		}
+		Button{
+			margin: 20px;
+		}
+	}
+}
+
+.reqmeeting-wrapper{
+	display: flex !important;
+	margin: auto;
+	position:relative;
+	&__form{
+		position: relative;
+		padding: 20px;
+		font-weight: bold;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 18px;
+		line-height: 22px;
+	}
+}
+
+.input{
+	width: 450px;
+	height: 50px;
+	margin-bottom: 20px;
+}
+
+.form{
+	margin-top: -20px;
+}
+
+.button_post{
+	float: right; 
+}
+
+// .button_cancel{
+	
+// }
+
+.modal-reqmeeting{
+	position: relative !important;
+	width: 600px !important;
+	height: 661px;
+	border-radius: 50px !important;
+}

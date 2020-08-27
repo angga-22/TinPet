@@ -1,0 +1,59 @@
+.modal-updateprofile {
+	width: 620px !important;
+	height: auto !important;
+}
+
+.updateprofile-wrapper{
+	h1{
+		font-weight: bold;
+		font-size: 40px;
+		line-height: 29px;
+		color: #FF65C5;
+	}
+	width: 570px;
+	height: 880px;
+	position: relative;
+	padding: 50px;
+	margin: auto !important;
+	border-radius: 15px;
+	align-item: center !important;
+	&__changepicture{
+		display: flex;
+		position: relative;
+	  &--image{
+			margin-bottom: 20px !important;
+		}
+		&--button{
+			margin: auto 20px;
+			color: #FF65C5;
+			border: none;
+			font-style: normal;
+			font-weight: 500;
+			font-size: 18px;
+			line-height: 22px;
+		}
+	}
+	&__form{
+		font-style: normal;
+		font-weight: bold;
+		line-height: 22px;
+		font-size: 20px;
+		width: 490px;
+		&--input{
+			border: 1px solid #C4C4C4;
+			box-sizing: border-box;
+			border-radius: 5px;
+			background-color: #F4F4F4;
+			width: 490px;
+			height: 50px;
+		}
+		&--button-post{
+			float: right;
+		}
+	}
+}
+
+.img {
+	border-radius: 50%;
+}
+

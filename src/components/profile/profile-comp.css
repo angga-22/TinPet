@@ -1,0 +1,100 @@
+/* phone only */
+@media screen and (max-width: 574px){
+    .box-profile{
+        border-radius: 0px;
+    }
+    .profile-component{
+        height: auto;
+    }
+    .img-profile{
+        width: 20vw;
+        height: 20vw;
+        
+    }
+    .name-profile{
+        font-size: 2em;
+    }
+
+}
+@media screen and  (min-width: 576px){
+    .box-profile{
+        border-radius: 0px;
+    }
+    .profile-component{
+        height: auto;
+    }
+    .img-profile{
+        width: 20vw;
+        height: 20vw;
+        
+    }
+    .name-profile{
+        font-size: 4vw;
+        text-align: center;
+        
+    }
+
+
+}
+/* tablet potrait up */
+@media screen and (min-width: 768px){
+    .desc-profile{
+        
+        text-align: center;
+    }
+}
+/* tablet lanscape up */
+@media screen and (min-width: 992px){
+    .box-profile{
+        border-radius: 15px;
+        height: auto;
+    }
+    .img-profile{
+        width: 15vw;
+        height: 15vw;
+    }
+    .name-profile{
+        font-size: 2.3vw;
+        
+    }
+
+}
+/* desktop up */
+@media screen and (min-width: 1200px){
+
+}
+/* big desktop up */
+@media screen and (min-width: 1600px){
+}
+
+/* box */
+.box-profile{
+    background-color: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+}
+
+
+
+.name-profile{
+    line-height: 29px;
+    font-weight: bold;
+    color: #000000;
+    margin: 20px 0;
+}
+
+.desc-profile{
+    font-size: 1rem;
+    padding: 0px 1em;
+}
+
+.edit-profile{
+    display: inline-block;
+    margin: 40px auto 42px auto;
+}
+.text-edit-profile{
+    font-size: 1.2rem;
+    color: #FF65C5;
+    font-weight: 500;
+    line-height: 22px;
+}

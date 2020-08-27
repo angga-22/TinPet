@@ -1,0 +1,44 @@
+@media (max-width: 574px){
+    .row-icon-and-delete{
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+}
+@media (min-width: 576px){
+    .row-icon-and-delete{
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+}
+/* tablet potrait up */
+@media (min-width: 768px){
+    .row-icon-and-delete{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+/* tablet lanscape up */
+@media (min-width: 992px){
+
+}
+/* desktop up */
+@media (min-width: 1200px){
+    .col-comment-post{
+        margin: 10px 30px 10px 30px !important;
+
+    }
+}
+/* big desktop up */
+@media (min-width: 1600px){
+    .col-comment-post{
+        margin: 10px 40px 10px 40px !important;
+
+    }
+}
+@media (min-width: 1920px){
+    .col-comment-post{
+        margin: 10px 50px 10px 50px !important;
+
+    }
+}

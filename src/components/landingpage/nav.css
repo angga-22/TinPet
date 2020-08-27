@@ -1,0 +1,43 @@
+@import "~antd/dist/antd.css";
+/* phone only */
+@media (max-width: 480px) {
+  .navBar {
+    height: 80px;
+  }
+
+  .text-menu {
+    font-size: 1.2em;
+  }
+}
+@media (min-width: 576px) {
+  .text-menu {
+    font-size: 1.5em;
+  }
+}
+/* tablet potrait up */
+/* tablet lanscape up */
+/* desktop up */
+/* big desktop up */
+.logo {
+  float: left;
+}
+
+.navBar {
+  border-bottom: solid 1px #e8e8e8;
+  box-shadow: 0 0 40px #f3f1f1;
+  position: "fixed";
+  z-index: 1;
+  width: "100%";
+  background-color: white;
+}
+
+.logo-img {
+  width: 8rem;
+}
+
+.menu-item {
+  border-bottom: none;
+  height: 4.5vh;
+}
+
+/*# sourceMappingURL=nav.css.map */

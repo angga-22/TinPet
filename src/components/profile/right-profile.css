@@ -1,0 +1,107 @@
+/* phone only */
+@media (max-width: 574px){
+    .box-right-profile{
+        border-radius: 0px;
+    }
+    .feed-component {
+        height: auto;
+    }
+    .feed-post{
+        height: auto;
+    }
+    .pets-data{
+        margin-top: 1vh;
+    }
+    .menu-profile{
+        font-size: 1.4em;
+    }
+
+}
+@media (min-width: 576px){
+    .box-right-profile{
+        border-radius: 0px;
+    }
+    .feed-component {
+        height: auto;
+    }
+    .feed-post{
+        height: auto;
+    }
+    .pets-data{
+        margin-top: 1vh;
+    }
+    .menu-profile{
+        font-size: 1.4em;
+    }
+
+}
+/* tablet potrait up */
+@media (min-width: 768px){
+    .menu-profile{
+        font-size: 1.6em;
+    }
+}
+/* tablet lanscape up */
+@media (min-width: 992px){
+    .box-right-profile{
+        border-radius: 15px;
+    }
+
+    .feed-post {
+        height: auto;
+    }
+    .feed-component{
+        height: auto;
+        
+    }
+    .menu-profile{
+        font-size: 1.8em;
+        margin: 0px 10px 0px 10px;
+    }
+
+}
+/* desktop up */
+@media (min-width: 1200px){
+    .menu-profile{
+        font-size: 1.8em;
+        margin: 0px 15px 0px 15px;
+    }
+}
+/* big desktop up */
+@media (min-width: 1600px){
+}
+
+/* box-right-profile */
+.box-right-profile{
+    background-color: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+}
+
+
+.row-profile{
+    margin: 50px 32px 0 32px;
+    
+}
+
+
+/* card-feed */
+
+.box-right-profile-post{
+    height: 100%;
+    padding: 24px;
+}
+
+.likes-comment{
+    color: #7B7B7B ;
+    font-size: 1em;
+    line-height: 17px;
+    font-weight: 600;
+    display: inline;
+    margin-right: 20px;
+}
+
+.row-profile{
+    margin: 50px 32px 0 32px;
+
+}

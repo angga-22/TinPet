@@ -1,0 +1,47 @@
+.text-seepost{
+    color: #FF65C5;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+/* small */
+@media(max-width: 576px){
+    .text-seepost{
+        font-size: 1rem;
+    }
+    .text-notif{
+        margin-top: 1em;
+        margin-bottom: -0.1em;
+    }
+}
+@media(min-width: 750px){
+    .text-seepost{
+        font-size: 1.2rem;
+    }
+    .text-notif{
+        margin-top: 1em;
+        margin-bottom: -0.1em;
+        font-size: 1.2em;
+    }
+}
+
+/* big */
+@media(min-width:992px){
+    .text-seepost{
+        font-size: 1.3rem;
+    }
+    .text-notif{
+        font-size: 1.3em;
+        margin-bottom: 0.1em;
+    }
+}
+
+@media(min-width:1200px){
+    .text-seepost{
+        font-size: 1.5rem;
+    }
+    .text-notif{
+        font-size: 1.5em;
+        margin-bottom: 0.2em;
+    }
+}

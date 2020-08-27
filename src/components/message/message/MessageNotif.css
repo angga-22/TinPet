@@ -1,0 +1,57 @@
+
+
+/* small */
+@media screen and (max-width: 576px){
+    .text-seepost{
+        font-size: 1rem;
+    }
+    .m-notif{
+        margin-top: 1em;
+        margin-bottom: -0.1em;
+    }
+}
+@media screen and (min-width: 577px){
+    .text-seepost{
+        font-size: 1rem;
+    }
+    .m-notif{
+        margin-top: 1em;
+        margin-bottom: -0.1em;
+    }
+}
+
+@media screen and (min-width: 750px){
+    .text-seepost{
+        font-size: 1.2rem;
+    }
+    .m-notif{
+        margin-top: 1em;
+        margin-bottom: -0.1em;
+        font-size: 1.2em;
+    }
+}
+
+/* big */
+@media screen and (min-width:992px){
+    .text-seepost{
+        font-size: 1.3rem;
+    }
+    .m-notif{
+        font-size: 1.3em;
+        margin-bottom: 0.1em;
+    }
+}
+
+@media screen and (min-width:1200px){
+    .text-seepost{
+        font-size: 1.5rem;
+    }
+    .m-notif{
+        font-size: 1.5em;
+        margin-bottom: 0.2em;
+    }
+}
+
+.delete-message{
+    width: 200px;
+}

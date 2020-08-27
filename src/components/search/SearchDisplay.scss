@@ -1,0 +1,91 @@
+@media screen and (max-width: 991px){
+    .box{
+        border-radius: 0px;
+    }
+    .feed-component {
+        height: auto;
+    }
+    .feed-post{
+        height: auto;
+    }
+    .btn-post{
+        font-size: 1em;
+        height: 3rem;
+    }
+    .btn-rqsmeet{
+        font-size: 1em;
+        height: 3em;
+    }
+    .pets-data{
+        margin-top: 1vh;
+    }
+}
+
+@media screen and (min-width:992px){
+    .box{
+        border-radius: 15px;
+    }
+    .btn-post{
+        font-size: 1vw;
+        height: 2.5vw;
+    }
+    .feed-post {
+        height: auto;
+    }
+    .feed-component{
+        height: auto;
+        
+    }
+    .btn-rqsmeet{
+        font-size: 1vw;
+        height: 2.5vw;
+    }
+}
+
+/* box */
+.box{
+    background-color: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+}
+
+/* write-post */
+.row-btn-post{
+    margin: 50px 32px 0 32px;
+    
+}
+
+.btn-post{
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+
+
+
+/* card-feed */
+
+.box-post{
+    height: 100%;
+    padding: 24px;
+}
+
+.likes-comment{
+    color: #7B7B7B ;
+    font-size: 1em;
+    line-height: 17px;
+    font-weight: 600;
+    display: inline;
+    margin-right: 20px;
+}
+
+.btn-rqsmeet{
+    border-radius: 5px;
+    background-color: #ff65c5;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+
+p::first-letter{
+    text-transform: uppercase;
+}
